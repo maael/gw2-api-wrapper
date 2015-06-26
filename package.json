@@ -1,0 +1,44 @@
+{
+  "name": "gw2-api-wrapper",
+  "version": "1.0.0",
+  "description": "A javascript wrapper for the gw2 api that uses promises.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maael/gw2-api-wrapper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maael/gw2-api-wrapper/issues"
+  },
+  "homepage": "https://github.com/maael/gw2-api-wrapper",
+  "dependencies": {
+    "chai": "^3.0.0",
+    "chai-as-promised": "^5.1.0",
+    "chai-things": "^0.2.0",
+    "request": "^2.58.0"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "chai-as-promised": "^5.1.0",
+    "chai-things": "^0.2.0",
+    "mocha": "^2.2.5"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "guild",
+    "wars",
+    "2",
+    "gw2",
+    "games",
+    "api",
+    "wrapper",
+    "promises"
+  ],
+  "author": "Matthew Elphick",
+  "license": "MIT"
+}
